@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69f0e9bf-2cc7-45e5-b8cb-61239a8551ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/设计模式-命令模式.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/SqlCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/sqlCrud/SqlCrudCreateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/sqlCrud/SqlCrudDeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/sqlCrud/SqlCrudQueryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/command/sqlCrud/SqlCrudUpdateCommand.java" afterDir="false" />
+    <list default="true" id="69f0e9bf-2cc7-45e5-b8cb-61239a8551ed" name="Default Changelist" comment="添加忽略文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternStudy/com/xiaoy/github/observer/OrderObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternStudy/com/xiaoy/github/observer/OrderObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xiaoy/github/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xiaoy/github/observer/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaoy.github.observer.Main" />
       <module name="DesignPatternStudy" />
@@ -119,7 +109,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -136,8 +125,24 @@
       <updated>1614907412235</updated>
       <workItem from="1614907415194" duration="2698000" />
       <workItem from="1614933552477" duration="4110000" />
-      <workItem from="1615162534690" duration="4876000" />
+      <workItem from="1615162534690" duration="5785000" />
+      <workItem from="1615184151064" duration="166000" />
     </task>
+    <task id="LOCAL-00001" summary="添加命令模式">
+      <created>1615167567022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615167567022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加忽略文件">
+      <created>1615167625447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615167625447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,10 +153,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加命令模式" />
+    <MESSAGE value="添加忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加忽略文件" />
   </component>
 </project>
