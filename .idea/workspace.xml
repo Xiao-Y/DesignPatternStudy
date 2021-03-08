@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69f0e9bf-2cc7-45e5-b8cb-61239a8551ed" name="Default Changelist" comment="添加忽略文件">
+    <list default="true" id="69f0e9bf-2cc7-45e5-b8cb-61239a8551ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/BillSynchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/BillSynchronizationA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/CheckDataA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ICheckData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/IParsingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ISaveData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/IUploadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ParsingDataA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ParsingDataB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/SaveDataA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/UploadDataA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiaoy/github/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xiaoy/github/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternStudy/com/xiaoy/github/observer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternStudy/com/xiaoy/github/observer/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaoy.github.strategy" />
       <recent name="com.xiaoy.github.command" />
     </key>
   </component>
@@ -80,7 +93,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiaoy.github.strategy.Main" />
+      <module name="DesignPatternStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaoy.github.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaoy.github.observer.Main" />
       <module name="DesignPatternStudy" />
@@ -109,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -126,7 +153,7 @@
       <workItem from="1614907415194" duration="2698000" />
       <workItem from="1614933552477" duration="4110000" />
       <workItem from="1615162534690" duration="5785000" />
-      <workItem from="1615184151064" duration="166000" />
+      <workItem from="1615184151064" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="添加命令模式">
       <created>1615167567022</created>
@@ -142,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615167625447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="优化">
+      <created>1615184388246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615184388246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加命令模式" />
     <MESSAGE value="添加忽略文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加忽略文件" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
 </project>
