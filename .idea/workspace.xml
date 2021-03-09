@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f0e9bf-2cc7-45e5-b8cb-61239a8551ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/BillSynchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/BillSynchronizationA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/CheckDataA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ICheckData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/IParsingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ISaveData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/IUploadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ParsingDataA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/ParsingDataB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/SaveDataA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xiaoy/github/strategy/UploadDataA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/设计模式-策略模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/设计模式-观察者模式.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternStudy/com/xiaoy/github/observer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatternStudy/com/xiaoy/github/observer/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/readme" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,6 +68,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xiaoy.github.strategy" />
       <recent name="com.xiaoy.github.command" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\02github\DesignPatternStudy\readme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,7 +145,7 @@
       <workItem from="1614907415194" duration="2698000" />
       <workItem from="1614933552477" duration="4110000" />
       <workItem from="1615162534690" duration="5785000" />
-      <workItem from="1615184151064" duration="5491000" />
+      <workItem from="1615184151064" duration="8637000" />
     </task>
     <task id="LOCAL-00001" summary="添加命令模式">
       <created>1615167567022</created>
@@ -176,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615184388246</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加策略模式">
+      <created>1615196893185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615196893185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +198,7 @@
     <MESSAGE value="添加命令模式" />
     <MESSAGE value="添加忽略文件" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="添加策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加策略模式" />
   </component>
 </project>
